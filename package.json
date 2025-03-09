@@ -7,10 +7,10 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
-    "firebase": "^10.1.0", // Updated Firebase version
-    "react": "^18.2.0", // Updated React version
-    "react-dom": "^18.2.0", // Updated React DOM version
-    "react-router-dom": "^6.3.0", // Updated React Router DOM version
+    "firebase": "^10.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -19,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build", // Added for GitHub Pages
-    "deploy": "gh-pages -d build" // Added for GitHub Pages
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +43,5 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "homepage": "https://mahendra-zoomo.github.io/zoomo-repair-queue" // Added for GitHub Pages
+  "homepage": "https://mahendra-zoomo.github.io/zoomo-repair-queue"
 }
